@@ -28,12 +28,45 @@ section:last-of-type{
 
 .electric-purple{
 	background: #C200FB;
+	flex-grow: 1; (/*flex bring boxen nebeneinander*/)
 }
 
 .raspberry{
 	background: #EC0868;
+	flex-grow: 1;
 }
 
 .ferrari-red{
-	background: #FC2F00
+	background: #FC2F00;
+	flex-grow: 1;
+}
+
+.green{
+	background-color: green;
+	flex-grow: 4; (/*hälfte vom Bildschirm wir eingenommen*/)
+}
+
+.black{
+	background: black;
+	flex-grow: 1;
+	order: -1;
+}
+
+.col{
+	height: 200px;
+	width: 200px;
+	float: left;
+}
+
+.row{
+	background-color: yellow;
+}
+
+.clearfix{
+	clear: both;
+}
+
+.flex{
+	display: flex;
+	height: 200px;
 }
